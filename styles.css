@@ -1,0 +1,41 @@
+/* Apply gradient background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top right, #2ecc71, #ffffff);
+  min-height: 100vh;
+}
+
+/* Menu bar styling */
+.menu-bar {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-bar a:hover {
+  color: #27ae60;
+}
+
+/* Content styling */
+.content {
+  text-align: center;
+  padding: 3rem;
+  color: #2c3e50;
+}
